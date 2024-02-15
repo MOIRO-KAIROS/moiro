@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'moiro_yolo_node = moiro_yolo.moiro_yolo_node:main'
         ],
     },
 )
